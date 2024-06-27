@@ -45,7 +45,7 @@ def detect_and_recognize_plate(image_path):
     text = pytesseract.image_to_string(cropped, config='--psm 8')
     print(f"Placa reconhecida: {text.strip()}")
 
-    cv2.imwrite("placa_recortada.jpg", cropped)  # Salvar a imagem recortada para referência
+    cv2.imwrite("placa_recortada.jpg", cropped)
     print(f"Imagem recortada da placa salva como: placa_recortada.jpg")
     print(f"Texto reconhecido: {text.strip()}")
 
