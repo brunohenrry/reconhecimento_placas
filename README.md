@@ -7,12 +7,12 @@ Este é um projeto simples de reconhecimento de placas de carro utilizando Pytho
 
 Clone o repositório:
 ```bash
-  git clone https://github.com/brunohenrry/reconhecimento_placas
-  cd reconhecimento_placas
+git clone https://github.com/brunohenrry/reconhecimento_placas
+cd reconhecimento_placas
 ```
 Instale as dependências:
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Como Usar
